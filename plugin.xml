@@ -1,0 +1,8 @@
+<library path="fake_object_filter">
+  <class
+    name="fake_object_filter/FakeObjectFilter"
+    type="fake_object_filter::FakeObjectFilter"
+    base_class_type="filters::FilterBase<sensor_msgs::msg::LaserScan>">
+    <description>Injects a fake obstacle by tempering LaserScan ranges.</description>
+  </class>
+</library>

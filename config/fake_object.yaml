@@ -1,0 +1,73 @@
+filter_node:
+  ros__parameters:
+    filters:
+      filter1:
+        name: fake_object
+        type: "fake_object_filter/FakeObjectFilter"  
+        params:
+          obj_pos_xA: 4.91
+          obj_pos_yA: -1.71
+          obj_pos_xB: 3.74
+          obj_pos_yB: -3.92
+          obj_pos_xC: 5.56
+          obj_pos_yC: -4.73
+          obj_pos_xD: 6.43
+          obj_pos_yD: -2.10
+          obj_pos_z: 1.0
+          obj_width: 6.0
+          tf_source: "laser"
+          tf_target: "map"
+
+
+rectangle_node:
+  ros__parameters:
+    width: 1.0
+    height: 1.0
+    yaw: 0.0
+
+# filter_node:
+#   ros__parameters:
+#     filters:
+#       filters: [fake_object]   
+#       fake_object:
+#         type: "fake_object_filter/FakeObjectFilter"  
+#         obj_pos_x: 3.70
+#         obj_pos_y: -2.70
+#         obj_pos_z: 1.0
+#         obj_width: 4.0
+#         tf_source: "laser"
+#         tf_target: "map"
+
+# /**:
+#   ros__parameters:
+#     use_sim_time: true
+#     filters: ["fake_object"]
+#     filters.fake_object.type: "fake_object_filter::FakeObjectFilter"
+#     filters.fake_object.obj_pos_x: 2.25
+#     filters.fake_object.obj_pos_y: -4.2
+#     filters.fake_object.obj_width: 4.0
+#     filters.fake_object.tf_source: "laser"
+#     filters.fake_object.tf_target: "map"
+
+# filter_node:
+#   ros__parameters:
+#     use_sim_time: true
+#     obj_pos_x: 4.71
+#     obj_pos_y: -2.68
+#     obj_width: 4.0
+#     tf_source: "laser"
+#     tf_target: "map"
+
+
+# filter_node:
+#   ros__parameters:
+#     use_sim_time: true
+#     filters:
+#       - name: fake_object
+#         type: "fake_object_filter::FakeObjectFilter"
+#         params:
+#           obj_pos_x: 4.71
+#           obj_pos_y: -2.68
+#           obj_width: 4.0
+#           tf_source: "laser"
+#           tf_target: "map"

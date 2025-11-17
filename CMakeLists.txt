@@ -65,7 +65,7 @@ install(TARGETS ${PROJECT_NAME}
 install(DIRECTORY include/ DESTINATION include)
 install(FILES plugin.xml DESTINATION share/${PROJECT_NAME})
 
-# Falls vorhanden, aber optional:
+# Falls vorhanden
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/config)
   install(DIRECTORY config/ DESTINATION share/${PROJECT_NAME}/config)
 endif()

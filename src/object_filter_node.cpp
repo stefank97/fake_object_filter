@@ -5,7 +5,6 @@
 #include <geometry_msgs/msg/polygon_stamped.hpp>
 #include "fake_object_filter/fake_object_filter.hpp"
 
-//TODO: Weg überlegen, wie es vermieden bzw damit umgegangen werden kann, wenn der controller server die local costmap cleared.
 
 class ObjectFilterNode : public rclcpp::Node {
 public:

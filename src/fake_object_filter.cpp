@@ -81,16 +81,6 @@ namespace fake_object_filter {
         this->getParam("obj_pos_yD", obj_pos_yD_);
         this->getParam("obj_pos_z", obj_pos_z_);
         this->getParam("obj_width", obj_width_);
- 
-
-        RCLCPP_DEBUG_ONCE(
-            logger_,
-            "Updated point from RVIZ: A: (%f, %f), B: (%f, %f), C: (%f, %f), D: (%f, %f)", 
-            obj_pos_xA_,obj_pos_yA_,
-            obj_pos_xB_,obj_pos_yB_,
-            obj_pos_xC_,obj_pos_yC_,
-            obj_pos_xD_,obj_pos_yD_
-        );
 
         //lookup map - laser transform
         //work on a copy

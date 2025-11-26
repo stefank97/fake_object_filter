@@ -4,7 +4,7 @@
   <name>fake_object_filter</name>
   <version>0.1.0</version>
   <description>Filter plugin which inserts a fake object into laserscan data.</description>
-  <maintainer email="laser@todo.todo">laser</maintainer>
+  <maintainer email="stefan.kessler97@gmail.com">laser</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
